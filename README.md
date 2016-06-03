@@ -2,6 +2,14 @@
 
 Очень простой клиент для рабтоты с [telegraf](https://docs.influxdata.com/telegraf/v0.13/).
 
+### Установка
+
+Ставим через композер
+
+```
+composer require hr/telegraf
+```
+
 ### Использование
 
 Клиент работает по [строчному протоколу](https://docs.influxdata.com/influxdb/v0.13/write_protocols/write_syntax/) телеграфа
