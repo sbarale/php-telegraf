@@ -1,5 +1,7 @@
 {
     "name": "hr/telegraf",
+    "license": "wtfpl",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Artem Kovardin",
