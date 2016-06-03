@@ -1,0 +1,17 @@
+{
+    "name": "hr/telegraf",
+    "authors": [
+        {
+            "name": "Artem Kovardin",
+            "email": "artem@4gophers.ru"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "5.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hr\\": ["src/", "tests/"]
+        }
+    }
+}
