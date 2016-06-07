@@ -36,6 +36,11 @@ class Telegraf
         socket_set_nonblock($this->socket);
     }
 
+    public function __destruct()
+    {
+        socket_close($this->socket);
+    }
+
     /**
      * @param string $table
      * @param array  $values
