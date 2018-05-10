@@ -1,5 +1,5 @@
 {
-    "name": "sbarale/telegraf",
+    "name": "sbarale/php-telegraf",
     "license": "wtfpl",
     "minimum-stability": "dev",
     "version": "0.1.0",
